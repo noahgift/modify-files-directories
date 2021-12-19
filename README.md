@@ -22,9 +22,8 @@ mv bar /tmp/
 # copy files
 cp -r bam /tmp/
 
-# sync files
-touch bam/four.txt
-rsync -av bam /tmp/
+# sync files (keeps both directories the same)
+rsync -av foo/ newspot/foo/
 
 # delete directory
 mkdir noneDir
