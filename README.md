@@ -47,5 +47,33 @@ result  4 2 1   4 0 1   400
 total     7       5       4       
 ```
 
+## Archiving
+
+### Zip
+
+```
+# archive
+zip -r archives/foo.zip foo
+cd archives
+#unarchive
+unzip foo.zip
+```
+
+### Tar
+
+```
+# archive
+tar -zcvf archives/foo.tgz foo
+
+#unarchive
+tar -zxvf foo.tgz
+```
+
+
+
+
+
+
+
 
 
