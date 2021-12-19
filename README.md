@@ -36,13 +36,14 @@ rm -rf biz
 
 ## Permissions
 
+```bash
 Access  Owner   Group   Other
 binary  4 2 1   4 2 1   4 2 1
 enabled 1 1 1   1 0 1   4 0 0
 result  4 2 1   4 0 1   400
 
 total     7       5       4       
-
+```
 
 
 
